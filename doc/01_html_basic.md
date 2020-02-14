@@ -486,7 +486,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](./img/html./img.png)
+![結果](./img/html/img.png)
 
 ---
 
