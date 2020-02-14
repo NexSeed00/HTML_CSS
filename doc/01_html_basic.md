@@ -119,7 +119,7 @@ HTMLで使用されるタグ要素を紹介したので、
 HTMLは複数のタグで構成されます。
 大きく分けると次のような構造になります。
 
-![構造](/img/html/constraction.png)
+![構造](./img/html/constraction.png)
 
 上の構造をHTMLのコードで表すと以下のようになります。  
 以下のコードはどんなWebサイトを作成する場合でも  
@@ -332,7 +332,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](/img/html/h.png)
+![結果](./img/html/h.png)
 
 ---
 
@@ -353,7 +353,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](/img/html/p.png)
+![結果](./img/html/p.png)
 
 ---
 
@@ -378,7 +378,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](/img/html/list.png)
+![結果](./img/html/list.png)
 
 ---
 
@@ -433,7 +433,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](/img/html/table.png)
+![結果](./img/html/table.png)
 
 ---
 
@@ -469,7 +469,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](/img/html/link.png)
+![結果](./img/html/link.png)
 
 ---
 
@@ -486,7 +486,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](/img/html/img.png)
+![結果](./img/html./img.png)
 
 ---
 
@@ -537,7 +537,7 @@ Google chromeにドラックアンドドロップするだけです。
 ```
 
 ##### 結果
-![結果](/img/html/form.png)
+![結果](./img/html/form.png)
 
 ---
 

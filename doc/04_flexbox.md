@@ -69,10 +69,10 @@ Flexboxを使用する(②)と横並びになります。
 ```
 
 ### ①  
-![block](/img/flex/block.png)
+![block](./img/flex/block.png)
 
 ### ②  
-![flex](/img/flex/flex.png)
+![flex](./img/flex/flex.png)
 
 配置を動かしたいが、並び順は縦のままにしたい場合はFlexコンテナに`flex-direction: column`をつけます。
 そうすると、並び順は縦並びのままFlexアイテムを自由に動かすことができます。
