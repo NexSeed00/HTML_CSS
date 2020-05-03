@@ -33,6 +33,11 @@ VS Codeとは、テキストエディタと呼ばれる種類のツールで、�
 <br>左側に階層が表示されない場合は左上のアイコンをクリックしてください。
 ![Open file in VS Code](./img/html/vs_opened_folder.png)
 
+
+<br>
+<br>
+<br>
+
 ## 拡張機能のインストール
 
 VS Codeには、便利な機能が元々たくさん備わっていますが、拡張機能を追加することで、自分の好みに合わせた環境にカスタマイズすることが可能です。ここでは、授業の中でも使う「Live Server」という拡張機能をインストールしてみましょう。
@@ -43,11 +48,14 @@ VS Codeには、便利な機能が元々たくさん備わっていますが、�
    2. 検索結果の一番上のものをクリック。
    3. 「Install」と書いてある緑色のボタンをクリックしましょう。
 ![Extensions](./img/html/vs_extension2.png)
-1. 左上のアイコンをクリックして、index.htmlファイルに戻りましょう。すると、画面一番したの青いバーに「Go Live」の文字が追加されているのでクリック（もしくは右クリックを押し、「Open with Live Server」をクリック）するとHTMLファイルがGoogle Chrome上で開かれます。
+1. 左上のアイコンをクリックして、index.htmlファイルに戻りましょう。すると、画面一番下の青いバーに「Go Live」の文字が追加されているのでクリックするとHTMLファイルがGoogle Chrome上で開かれます。または、右クリックを押し、「Open with Live Server」をクリックでも同様の操作ができます。
 <br>※「Go Live」もしくは「Open with Live Server」が表示されない場合は、VS Codeを再起動してみてください。
 
 ![Extensions](./img/html/vs_extension3.png)
 
+<br>
+<br>
+<br>
 
 ## ショートカット
 
