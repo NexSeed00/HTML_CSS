@@ -4,6 +4,14 @@
 
 ![Fonts sample](./img/html/fonts_sample.png)
 
+以下の6つの手順で、実際にGoogle Fontsを導入してみましょう。
+1. 準備
+2. Google Fontsで好きなフォントを選ぶ
+3. フォントウェイト・スタイルを選ぶ
+4. 選んだフォントの確認
+5. 必要な情報をコピー＆ペースト
+6. 確認
+
 ### 1. 準備
 
 - 任意のフォルダ内に```index.html```と```style.css```を作成しましょう。
@@ -19,30 +27,31 @@
 上のリンクからGoogle Fontsを開き、好きなフォントをクリックしてください。
 見本と同じフォントを選ぶ必要はありません。
 ![google fonts top](./img/html/google_fonts_top.png)
-<!-- google_fonts_top.png -->
 
 ### 3. フォントウェイト・スタイルを選ぶ
 
 2で好きなフォントを選ぶと以下のようなページに飛び、フォントウエイトや、スタイルが選べます。ただし、これらはCSSで変えられるので、Regularを選択することをオススメします。各文字の一番右側にある「+ Select this style」をクリックしてください。
-<!-- select_font_style.png -->
+
 ![select_font_style](./img/html/select_font_style.png)
 
 ### 4. 選んだフォントの確認
 
 すると右側にバーが現れるので、「Embed」の文字をクリックしましょう。
-<!-- chosen_font.png -->
+
 ![chosen_font.png](./img/html/chosen_font.png)
+<br>
 もし、誤ってバーを閉じてしまった場合は右上のアイコンをクリックすることでサイドバーを開けます。
-<!-- open_sidebar.png -->
+
 ![open_sidebar.png](./img/html/open_sidebar.png)
 
 ### 5. 必要な情報をコピー＆ペースト
 
 - linkをコピーし、``index.html``の``<head>``の中に貼り付けます。
-<!-- paste_link.png -->
+
 ![paste_link.png](./img/html/paste_link.png)
+
 - font-familyをコピーし、 ``style.css``で、セレクタを``.font``とした {} の中に貼り付けます。
-<!-- paste_css.png -->
+
 ![paste_css.png](./img/html/paste_css.png)
 
 ### 6. 確認
