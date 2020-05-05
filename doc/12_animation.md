@@ -81,3 +81,38 @@ h1タグの中の文字「Hello」の大きさを変える`50px`から`100px`に
 }
 ```
 この場合、文字の大きさは、50pxからスタートし、150pxまで大きくなった後、100pxまで小さくなります。
+
+## アニメーションを追加する
+- 次に行うのは、今作成したアニメーションを付けたいセレクタの中に書き加えることです。
+- ここでは`h1`タグの中のコンテント（Hello）の大きさを変えたいので、`style.css`の`h1`の中に追加するアニメーションの情報を書いていきます。
+```css
+h1 {
+    font-size: 50px;
+    animation-name: bigger-font;
+}
+```
+- アニメーションを追加したい場合、`animation-name`というプロパティを使います。値は、先ほど作成した、アニメーションの名前である`bigger-font`です。
+- これだけでは、アニメーションは作動しません。アニメーションを動かすには、詳しい設定を書いていかなければなりません。
+- ここで説明するのは以下の６つのプロパティです。
+  <!-- - animation-duration
+  - animation-timing-function
+  - animation-delay
+  - animation-iteration-count
+  - animation-direction
+  - animation-fill-mode: forwards; -->
+
+|プロパティ|説明|値の例|
+|:---:|:---|:---|
+|animation-duration|アニメーション全体の時間| 3s|
+- アニメーションが何秒かけて実行されるのかを指定します。
+- 値には、秒数を書き、数字の後ろに`s`を付けて書きます。`s`は`second(秒)`という意味です。また、`ms(millisecond)`と書くこともでき、1000分の１秒（0.001秒)単位でも指定もできます。
+
+
+|プロパティ|説明|値の例|
+|:---:|:---|:---|
+|animation-timing-function|アニメーションの動き方、一定のスピードで動かしたり、始めと終わりだけゆっくりにするなどの設定ができる| linear, ease-in |
+|animation-delay| アニメーションを遅らせる。指定した秒数経過した後に、アニメーションが動くようにできる| 2s |
+|animation-iteration-count|繰り返す回数を指定する| 2, infinite|
+|animation-direction|アニメーションの向きを指定する| normal, reverse, alternate, alternate-reverse|
+|animation-fill-mode|アニメーション終了時の値をどこに合わせるかしている（forward）なら、終了時の値がそのままキープされ、初期値に
+戻らない|none, forwards, backwards, both|
