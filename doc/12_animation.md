@@ -149,7 +149,7 @@ h1 {
 - 最後は終了時の値をキープ。(100pxのままで、50pxには戻らない。) 
 
 画像のように文字が大きくなったり小さくなったりを2回繰り返して、最後は大きい文字のまま止まればOKです。
-![bigger_font](./img/html/bigger_font.png)
+![bigger_font](./img/html/bigger_font.jpg)
 
 
 ## 5. 省略した書き方
