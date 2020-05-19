@@ -18,7 +18,7 @@ Flexbox関連の以下4つの使い方を理解する
 - `display: flex`
 - `flex-direction`
 - `justify-content`
-- `aline-items`
+- `align-items`
 
 Flexboxには非常に多くのプロパティが存在しますが、  
 最低限上記4つを使用すればある程度のWebサイトは作成できます。
@@ -78,14 +78,14 @@ Flexboxを使用する(②)と横並びになります。
 そうすると、並び順は縦並びのままFlexアイテムを自由に動かすことができます。
 
 最後に、配置ですが、中央によせたい、両端によせたいといったことに使用するのが、
-`justify-content`と`aline-items`です。
+`justify-content`と`align-items`です。
 それぞれのプロパティで上下の位置、左右の位置を決めます。
 `flex-direction`の値によって、どちらが上下左右の位置を決めるのか変わります。
 
 |                |flex-direction: row  |flex-direction: column  |
 |---             |---                  |---                     |
 |justify-content |左右                 |上下                    |
-|aline-items     |上下                 |左右                    |
+|align-items     |上下                 |左右                    |
 
 ※`flex-direction`を使ってない場合は、`flex-direction: row`と同じです。
 **上記の各プロパティは全てFlexコンテナ**につけます。
@@ -111,7 +111,7 @@ Flexboxを使用する(②)と横並びになります。
 - `flex-direction: row`、またはついてない場合は**左右**の位置を決める
 - `flex-direction: column`の場合は**上下**の位置を決める
 
-### `aline-items`
+### `align-items`
 - Flexコンテナにつける
 - `flex-direction: row`、またはついてない場合は**上下**の位置を決める
 - `flex-direction: column`の場合は**左右**の位置を決める
@@ -180,7 +180,7 @@ HTMLは`index.html`に、CSSは`style.css`に記述してください。
     </div>
     <hr>
 
-    <h2>display: flex + aline-itemsで上下の位置を調整(中央寄せ)</h2>
+    <h2>display: flex + align-itemsで上下の位置を調整(中央寄せ)</h2>
     <div class="flex4">
         <div class="box">1</div>
         <div class="box">2</div>
@@ -207,7 +207,7 @@ HTMLは`index.html`に、CSSは`style.css`に記述してください。
     </div>
     <hr>
 
-    <h2>display: flex + justify-content:centr + aline-items:centerで上下左右の位置を調整(上下左右中央)</h2>
+    <h2>display: flex + justify-content:centr + align-items:centerで上下左右の位置を調整(上下左右中央)</h2>
     <div class="flex7">
         <div class="box">1</div>
         <div class="box">2</div>
