@@ -19,13 +19,13 @@ CSSのレスポンシブとは、パソコンやスマホ、タブレットな�
 h1 {
  font-size: 30px;
 }
-@media screen and (min-width:480px) { 
+@media screen and (min-width:780px) { 
     h1 { 
         font-size: 300px;
     }
 }
 ```
-`@media　screen and (min-width:480px) { }`は、画面の横幅（width）が480pxまでは、以下のCSSを適応するという意味です。よって上記のコードでは、「画面の横幅が480px以上の時はfont-sizeが300px、それ以外はの場合は300pxということになります。
+`@media　screen and (min-width:480px) { }`は、画面の横幅（width）が480pxまでは、以下のCSSを適応するという意味です。よって上記のコードでは、「画面の横幅が480px以上の時はfont-sizeが300px、それ以外の場合は30pxということになります。
 ちなみに`min`は`minimum`の略で最小値という意味です。
 「以上・以下」や「最小値」など、混乱しそうになるので、下の図を参考に、頭の中を整理してみてください。
 
@@ -46,7 +46,7 @@ h1 {
 h1 {
  font-size: 30px;
 }
-@media screen and (min-width:480px) { 
+@media screen and (min-width:780px) { 
     h1 { 
         font-size: 300px;
     }
@@ -60,7 +60,7 @@ h1 {
 h1 {
  font-size: 300px;
 }
-@media screen and (max-width:480px) { 
+@media screen and (max-width:780px) { 
     h1 { 
         font-size: 30px;
     }
