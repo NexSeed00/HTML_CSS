@@ -29,7 +29,7 @@ h1 {
 ちなみに`min`は`minimum`の略で最小値という意味です。
 「以上・以下」や「最小値」など、混乱しそうになるので、下の図を参考に、頭の中を整理してみてください。
 
-![responsive media](img/responsive_media.jpg)
+![responsive media](img/html/responsive_media.jpg)
 
 
 ## 3. モバイルファースト / デスクトップファースト
@@ -74,7 +74,6 @@ h1 {
 
 htmlファイルに先ほどの説明で用いた、CSSのコード（モバイルファーストの方）を記述したファイルを紐付けて、ブラウザで開くと次のような画面になります。
 画面の幅は変えると、文字が500pxから30pxに変わることが確認できます。
-
-![](./img/responsive_result.jpg)
+![](./img/html/responsive_result.jpg)
 
 
